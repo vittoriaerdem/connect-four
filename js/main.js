@@ -1,7 +1,7 @@
 /*----- constants -----*/
 const COLORS = {
     '0': 'white',
-    '1': 'purple',
+    '1': 'red',
     '-1': 'blue'
   };
   /*----- app's state (variables) -----*/ 
