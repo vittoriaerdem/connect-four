@@ -2,7 +2,7 @@
 const COLORS = {
     '0': 'white',
     '1': 'red',
-    '-1': 'blue'
+    '-1': 'yellow'
   };
   /*----- app's state (variables) -----*/ 
   let board, turn, winner;
@@ -55,7 +55,7 @@ const COLORS = {
       if (winner === 'T') {
         msgEl.textContent = "It's a Tie!";
       } else {
-        msgEl.innerHTML = `<span style="color:${COLORS[winner]}">${COLORS[winner].toUpperCase()}</span> Wins!`;
+        msgEl.innerHTML = `<span style="color:${COLORS[winner]}">${COLORS[winner].toUpperCase()}</span> wins!`;
       }
     } else {
       msgEl.innerHTML = `<span style="color:${COLORS[turn]}">${COLORS[turn].toUpperCase()}</span>'s Turn`;

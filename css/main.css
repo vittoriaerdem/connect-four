@@ -3,15 +3,34 @@
   }
   
   body {
-    font-family: 'Hepta Slab', serif;
     height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #061ca0;
+    color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/light-mesh.png");
   }
-  
+
+  h1 {
+    font-family: 'Changa One', cursive;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-decoration: underline;
+    text-align: center;
+    margin: 0;
+  }
+
+  h2 {
+    font-family: 'Changa One', cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+
   section.markers {
     display: grid;
     grid-template-columns: repeat(7, 10vmin);
@@ -26,7 +45,7 @@
   }
   
   section.markers div:hover {
-    border-top-color: grey;
+    border-top-color: darkgray;
   }
   
   section.board {
