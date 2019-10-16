@@ -3,7 +3,7 @@
   }
   
   body {
-    font-family: Montserrat;
+    font-family: 'Hepta Slab', serif;
     height: 100vh;
     margin: 0;
     display: flex;
@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
   }
+  
   section.markers {
     display: grid;
     grid-template-columns: repeat(7, 10vmin);
