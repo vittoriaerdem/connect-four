@@ -2,7 +2,7 @@
 const COLORS = {
     '0': 'white',
     '1': 'red',
-    '-1': 'yellow'
+    '-1': 'blue'
   };
   /*----- app's state (variables) -----*/ 
   let board, turn, winner;
@@ -28,7 +28,7 @@ const COLORS = {
       [0, 0, 0, 0, 0, 0],   // column 7 (index 6)
     ];
     turn = 1;
-    winner = null;  // 1, -1, null (no winner), 'T' (tie)
+    winner = null;
     render();
   }
   

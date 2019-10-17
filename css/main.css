@@ -3,19 +3,16 @@
   }
   
   body {
+    font-family: 'Changa One', cursive;
     height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #061ca0;
-    color: white;
-    background-image: url("https://www.transparenttextures.com/patterns/light-mesh.png");
   }
 
   h1 {
-    font-family: 'Changa One', cursive;
     font-size: 70px;
     font-style: normal;
     font-weight: bold;
@@ -26,7 +23,6 @@
   }
 
   h2 {
-    font-family: 'Changa One', cursive;
     font-size: 50px;
     letter-spacing: 2px;
   }
